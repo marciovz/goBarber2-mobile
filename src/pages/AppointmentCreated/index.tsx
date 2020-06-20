@@ -1,8 +1,12 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 
 const AppointmentCreated: React.FC = () => {
-  return <View />;
+  return (
+    <View>
+      <Text>Page Appointment Created</Text>
+    </View>
+  );
 };
 
 export default AppointmentCreated;
